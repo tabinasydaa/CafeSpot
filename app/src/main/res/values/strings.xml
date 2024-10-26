@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CafeSpot</string>
+    <string name="btn_start">Start</string>
+    <string name="tv_list">Find your best Cafe Shop</string>
+</resources>
