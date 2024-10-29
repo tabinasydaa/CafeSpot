@@ -31,6 +31,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/btn_start"
+        android:textSize="20sp"
         style="@style/StartButtonStyle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,5 +1,6 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5"
@@ -10,28 +11,26 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- back -->
         <ImageButton
             android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
             android:background="?android:selectableItemBackgroundBorderless"
             android:src="@drawable/ic_back"
-            android:contentDescription="Back"
+            android:contentDescription="@string/image_back"
             android:layout_gravity="start"
             android:layout_marginTop="24dp"
-            android:tint="#000000"
-            android:padding="8dp"/>
+            android:padding="8dp"
+            app:tint="@color/brown" />
 
         <ImageView
             android:id="@+id/mainImage"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="16dp"
             android:src="@drawable/sasada"/>
 
-        <!-- nama cafe & rating -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,10 +45,9 @@
                 android:text="@string/tv_sasada"
                 android:textStyle="bold"
                 android:textSize="18sp"
-                android:textColor="#000000" />
+                android:textColor="@color/brown" />
         </LinearLayout>
 
-        <!-- alamat cafe -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +59,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_location"
-                android:tint="#000000" />
+                app:tint="@color/brown" />
 
             <TextView
                 android:id="@+id/address"
@@ -70,10 +68,9 @@
                 android:layout_marginStart="8dp"
                 android:text="@string/tv_lokasi_sasada"
                 android:textSize="14sp"
-                android:textColor="#555555" />
+                android:textColor="@color/grey" />
         </LinearLayout>
 
-        <!-- nomor -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -85,7 +82,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_phone"
-                android:tint="#000000" />
+                app:tint="@color/brown" />
 
             <TextView
                 android:id="@+id/phone"
@@ -94,7 +91,7 @@
                 android:layout_marginStart="8dp"
                 android:text="@string/no_sasada"
                 android:textSize="14sp"
-                android:textColor="#555555" />
+                android:textColor="@color/grey" />
         </LinearLayout>
 
         <!-- ig -->
@@ -109,7 +106,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_price"
-                android:tint="#000000" />
+                app:tint="@color/brown" />
 
             <TextView
                 android:id="@+id/instagram"
@@ -118,7 +115,7 @@
                 android:layout_marginStart="8dp"
                 android:text="@string/ig_sasada"
                 android:textSize="14sp"
-                android:textColor="#555555" />
+                android:textColor="@color/grey" />
         </LinearLayout>
 
         <!-- jam buka -->
@@ -133,7 +130,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/ic_time"
-                android:tint="#000000" />
+                app:tint="@color/brown" />
 
             <TextView
                 android:id="@+id/operatingHours"
@@ -142,10 +139,9 @@
                 android:layout_marginStart="8dp"
                 android:text="@string/jam_sasada"
                 android:textSize="14sp"
-                android:textColor="#555555" />
+                android:textColor="@color/grey" />
         </LinearLayout>
 
-        <!-- Instagram hyperlink -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -157,14 +153,14 @@
                 android:layout_width="25dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_ig"
-                android:tint="#000000" />
+                app:tint="@color/brown" />
 
             <TextView
                 android:id="@+id/instagramLink"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="sasadakopi"
+                android:text="@string/link_sasada"
                 android:textSize="14sp"
                 android:textColor="#0000EE"
                 android:autoLink="web"
@@ -181,7 +177,7 @@
             android:text="@string/description"
             android:textStyle="bold"
             android:textSize="16sp"
-            android:textColor="#000000" />
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/description"
@@ -190,7 +186,7 @@
             android:layout_marginTop="4dp"
             android:text="@string/tv_deskripsi"
             android:textSize="14sp"
-            android:textColor="#555555" />
+            android:textColor="@color/brown" />
 
     </LinearLayout>
 </ScrollView>

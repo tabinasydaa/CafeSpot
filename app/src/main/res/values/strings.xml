@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">CafeSpot</string>
     <string name="btn_start">Start</string>
-    <string name="tv_list">Find your best Cafe Shop</string>
-    <string name="app_name">Android Basic Tutorials</string>
+    <string name="tv_list">Find your best Coffee Shop</string>
 
     <string name="tv_sasada">Sasadakopi, roastery</string>
     <string name="tv_lokasi_sasada">Jl. Sei Bahorok No.21, Babura, Kec. Medan Baru, Kota Medan, Sumatera Utara</string>
@@ -10,9 +9,14 @@
     <string name="ig_sasada">sasadaroastery</string>
     <string name="jam_sasada">06:00 - 23:00</string>
     <string name="description">Description:</string>
-    <string name="tv_deskripsi">SasadaKopi Roastery adalah tempat yang tepat untuk menikmati kopi berkualitas tinggi. Kafe ini memiliki suasana modern dengan sentuhan vintage yang membuatnya nyaman untuk segala suasana, baik untuk bekerja maupun sekadar bersantai.</string>
+    <string name="tv_deskripsi">SasadaKopi Roastery is the right place to enjoy high quality coffee. This cafe has a modern atmosphere with a vintage touch which makes it comfortable for all occasions, whether for work or just relaxing.</string>
+
     <string name="sasada">Sasadakopi, roastery</string>
     <string name="hazza">Hazza Coffee</string>
     <string name="makecents">Makecents Coffee Space</string>
     <string name="sangrai">Sangrai Coffee House</string>
+    <string name="common">Common Folks</string>
+
+    <string name="image_back">Back</string>
+    <string name="link_sasada">sasadakopi</string>
 </resources>
